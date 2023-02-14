@@ -1,4 +1,6 @@
 function changer_style(){
-    var p = document.getElementById('parag1');
+
+    var p = document.getElementById('container');
     p.classList.add("active");
-  }
+
+}
