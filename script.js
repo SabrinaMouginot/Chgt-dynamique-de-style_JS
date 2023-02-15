@@ -1,13 +1,10 @@
-var p = document.getElementById('container');
-
-
 function theme_sombre(){
-        p;
-        p.classList.add("sombre");
+    var p = document.getElementById('container');
+    p.classList.add("sombre");
 }
 
 function theme_clair(){
-    p;
+    var p = document.getElementById('container');
     p.classList.add("clair");
 }
 
