@@ -1,53 +1,13 @@
-.active{
+.sombre{
     color: #fff;
     background: rgb(0, 0, 0);
-    border: 1px solid black;
     padding: 5px;
     height: 500vh;
 }
 
-/* INDICE POUR CREER UN THEME SOMBRE*/
-
-/* @media (prefers-color-scheme: light | dark)
-{ … } 
-
-@media (prefers-color-scheme: dark) {
-    body {
-    background-color: #1c1c1e;
-    color: #fefefe;
-    }
-    a {
-    color: #5fa9ee;
-    }
-    img {
-    filter: grayscale(20%);
-    }
-    }
-
-@media (prefers-color-scheme: dark) {
-    html {
-    filter: invert(100%);
-    }
-    } */
-
-
-/* .day   { background: #eee; color: black; }
-.night { background: #333; color: white; }
-
-@media (prefers-color-scheme: dark) {
-  .day.dark-scheme   { background:  #333; color: white; }
-  .night.dark-scheme { background: black; color:  #ddd; }
+.clair{
+    color: #000000;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    height: 500vh;
 }
-
-@media (prefers-color-scheme: light) {
-  .day.light-scheme   { background: white; color:  #555; }
-  .night.light-scheme { background:  #eee; color: black; }
-}
-
-.day, .night {
-  display: inline-block;
-  padding: 1em;
-  width: 7em;
-  height: 2em;
-  vertical-align: middle;
-} */

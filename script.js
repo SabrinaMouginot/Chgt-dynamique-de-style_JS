@@ -1,6 +1,9 @@
-function changer_style(){
-
+function theme_sombre(){
     var p = document.getElementById('container');
-    p.classList.add("active");
+    p.classList.add("sombre");
+}
 
+function theme_clair(){
+    var p = document.getElementById('container');
+    p.classList.add("clair");
 }
